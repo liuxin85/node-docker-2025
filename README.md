@@ -27,3 +27,8 @@ exec sh
 docker exec -it node-app sh 
 ```
 printenv
+
+docker compose
+```bash
+docker-compose up -d --build
+```

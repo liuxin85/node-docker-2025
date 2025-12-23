@@ -62,3 +62,18 @@ How to log into mogosh
 ```bash
 docker exec -it node-docker-mongo-1 mongosh -u "root" -p "password"
 ```
+How to see the docker log?
+```bash
+docker logs node-docker-node-app-1 -f # -f to follow
+```
+
+How to see container inside?
+```bash
+docker exec -it node-docker-node-app-1 sh
+```
+
+How to inspect Networks
+```bash
+docker network ls
+docker network inspect node-docker_default  
+```

@@ -32,3 +32,13 @@ docker compose
 ```bash
 docker-compose up -d --build
 ```
+
+How to run two docker compose file
+```bash
+docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build
+```
+
+How to break down the compose file
+```bash
+ docker-compose down -v
+```
